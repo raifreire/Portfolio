@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #22212c;
+    display: grid;
+    grid-template-areas: 
+    "aside main";
+    grid-template-rows: 1fr;
+    grid-template-columns: 300px 1fr;
+}
+.container{
+    grid-area: main;
+    margin-bottom: 16px;
+    border-style: none;
+    border-radius: 10px;
+}
+#profile{
+    border: solid 2px #302f3d;
+    width: 248px;
+    height: 192px;
+    background-color: #5c5b61;
+}
+#links{
+    border: solid 2px #302f3d;
+    width: 248px;
+    height: 248px;
+    background-color: #5c5b61;
+}
+#technologies{
+    border: solid 2px #302f3d;
+    width: 248px;
+    height: 108px;
+    background-color: #5c5b61;
+}
+#experiences{
+    border: solid 2px #302f3d;
+    width: 248px;
+    height: 249px;
+    background-color: #5c5b61;
+}
+#education{
+    border: solid 2px #302f3d;
+    width: 248px;
+    height: 252px;
+    background-color: #5c5b61;
+}
+  /*Estilização do Main*/
+.containerMain{
+    grid-area: aside;
+    border-style: none;
+    border-radius: 10px;
+    margin-bottom: 16px;
+    padding: 0;
+}
+#myProjects{
+    border: solid 2px #302f3d;
+    width: 852px;
+    height: 86px;
+    background-color: #5c5b61;
+}
+#containerProject{
+    width: 852px;
+    height: 188px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+#project-1{
+    border: solid 2px #302f3d;
+    width: 411px;
+    height: 186px;
+    background-color: #5c5b61;
+}
+#project-2{
+    border: solid 2px #302f3d;
+    width: 411px;
+    height: 186px;
+    background-color: #5c5b61;
+}
+#recentPosts{
+    border: solid 2px #302f3d;
+    width: 852px;
+    height: 86px;
+    background-color: #5c5b61;
+}
+#posts{
+    border: solid 2px #302f3d;
+    width: 852px;
+    height: 86px;
+    background-color: #5c5b61;
+}
