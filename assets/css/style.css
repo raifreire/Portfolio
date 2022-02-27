@@ -21,6 +21,16 @@ body{
     width: 248px;
     height: 192px;
     background-color: #5c5b61;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#profile img{
+    width: 90px;
+    margin: 0;
+    border: 2.5px solid #00ff00;
+    border-radius: 50%;
 }
 #links{
     border: solid 2px #302f3d;
@@ -59,6 +69,11 @@ body{
     width: 852px;
     height: 86px;
     background-color: #5c5b61;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 2%;
+    padding-right: 2%;
 }
 #containerProject{
     width: 852px;
