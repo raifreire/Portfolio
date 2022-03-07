@@ -145,6 +145,21 @@ body{
     width: 411px;
     height: 186px;
     background-color: #5c5b61;
+    display: flex;
+    flex-direction: column;
+}
+#titleProject-1{
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+}
+#project-1 p{
+
+}
+#title2Project-1{
+    display: flex;
+    justify-content: baseline;
+    align-items: flex-end;
 }
 #project-2{
     border: solid 2px #302f3d;
