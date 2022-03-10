@@ -1,9 +1,12 @@
+
 *{
     margin: 0;
     padding: 0;
 }
 body{
-    background-color: #22212c;
+    background-color: #0f0f0f;
+    color: #837e9f;
+    font-family: "Merriweather Sans";
     display: grid;
     grid-template-areas: 
     "aside main";
@@ -20,7 +23,7 @@ body{
     border: solid 2px #302f3d;
     width: 248px;
     height: 192px;
-    background-color: #5c5b61;
+    background-color: #292122;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -124,7 +127,7 @@ body{
 }
 #myProjects{
     border: solid 2px #302f3d;
-    width: 852px;
+    width: 792px;
     height: 86px;
     background-color: #5c5b61;
     display: flex;
@@ -133,49 +136,142 @@ body{
     padding-left: 2%;
     padding-right: 2%;
 }
-#containerProject{
+.containerProject{
     width: 852px;
     height: 188px;
     display: flex;
-    align-items: baseline;
+    flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 }
 #project-1{
     border: solid 2px #302f3d;
+    border-radius: 10px;
     width: 411px;
     height: 186px;
+    margin: 0;
     background-color: #5c5b61;
     display: flex;
     flex-direction: column;
 }
-#titleProject-1{
+#topProject-1{
+    border: solid 2px gold;
+    width: 380px;
+    height: 35px;
+    margin-top: 1%;
     display: flex;
-    justify-content: baseline;
+    flex-direction: row;
+    justify-content: flex-start;
     align-items: center;
 }
-#project-1 p{
-
+#centerProject-1{
+    border: solid 2px gold;
+    width: 380px;
+    height: 35px;
+    align-items: center;
+    text-align: justify;
 }
-#title2Project-1{
-    display: flex;
-    justify-content: baseline;
+#bottomProject-1{
+    border: solid 2px gold;
+    width: 380px;
+    height: 35px;
+    margin-bottom: 1%;
     align-items: flex-end;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.bottomProjectJavascript{
+    width: 380px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
 }
 #project-2{
     border: solid 2px #302f3d;
+    border-radius: 10px;
     width: 411px;
     height: 186px;
+    display: flex;
+    flex-direction: column;
     background-color: #5c5b61;
+}
+#topProject-2{
+    border: solid 2px gold;
+    width: 380px;
+    height: 35px;
+    margin-top: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+#centerProject-2{
+    border: solid 2px gold;
+    width: 380px;
+    height: 35px;
+    align-items: center;
+    text-align: justify;
+}
+#bottomProject-2{
+    border: solid 2px gold;
+    width: 380px;
+    height: 35px;
+    margin-bottom: 1%;
+    align-items: flex-end;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
 }
 #recentPosts{
     border: solid 2px #302f3d;
     width: 852px;
-    height: 86px;
+    height: 66px;
     background-color: #5c5b61;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 #posts{
     border: solid 2px #302f3d;
     width: 852px;
-    height: 86px;
+    height: 146px;
     background-color: #5c5b61;
+    display: flex;
+    flex-direction: row;
+}
+#photoPerfilPosts{
+    border: solid 2px #1d301d;
+    width: 146px;
+    height: 146px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#photoPerfilPosts img{
+    border: solid 2.5px #00ff00;
+    border-radius: 50%;
+    width: 90px;
+}
+#elemnetsPosts{
+    border: solid 2px #00ff00;
+    width: 680px;
+    height: 143px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+#elementPosts-1{
+    border: solid 2px #00ff00;
+    width: 600px;
+    height: 35px;
+}
+#elementPosts-2{
+    border: solid 2px #00ff00;
+    width: 600px;
+    height: 35px;
 }
